@@ -16,7 +16,7 @@ This repository showcases a project I built while learning web development conce
 ## How to View the Project
 
 - Visit my project live at [My Website][(https://ariyavasanth.github.io/Udemy__clon/)].
-- View the code on [GitHub]([https://github.com/your-github-username/your-repository-name](https://github.com/Ariyavasanth/Udemy__clon)).
+- View the code on [GitHub](https://github.com/your-github-username/your-repository-name](https://github.com/Ariyavasanth/Udemy__clon).
 
 ## Technologies Used
 
