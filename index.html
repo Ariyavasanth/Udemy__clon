@@ -1,0 +1,300 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=deevice-width, initial-scale=1.0">
+    <title>Online Courses - Learn Anything,On your Schedule | Udemy </title>
+    <!--google font stylesheet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+
+    <!--Font awsome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--my style sheet-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/udemy_icon.png">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="nav__for__mobile" media = "(max-width:800px)">
+            <i class="fa-solid fa-bars  hand-burger" style="color: #000000;"></i>
+            <img src="./assets/udemy_logo.png" alt="udemy_logo" class="navbar__logo">
+            <i class="fa-solid fa-cart-shopping cart cart__mobile" style="color: #000000;"></i>
+        </div>
+        <div class="navbar__s1">
+            <i class="fa-solid fa-bars  hand-burger" style="color: #000000;" media="screen and (max-width:800px)"></i>
+            <img src="./assets/udemy_logo.png" alt="udemy_logo" class="navbar__logo">
+        </div>
+
+        <div class="navbar__s2">
+            <i class="fa-solid fa-magnifying-glass" id="search" style="color: #585858;"></i>
+            <input placeholder="Search for anything here. Tech, Business, Art ...">
+        </div>
+
+        <div class="navbar__s4">
+            <p class="navbar__s4__title">My learning</p>
+            <div class="navbar__s4__learning_popup">
+                <p>You did't purchase anyhting</p>
+            </div>
+
+            <i class="fa-solid fa-cart-shopping cart" style="color: #000000;"></i>
+
+        </div>
+
+        <div class="navbar__s3">
+
+            <button class="navbar__s3__btn navbar__s3__btn--padding">Log in</button>
+            <button class="navbar__s3__btn navbar__s3__btn--padding  navbar__s3__btn--background-black">Sign in</button>
+
+            <button class="navbar__s3__btn navbar__s3__btn--inernet">
+                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg width="25px" height="29px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M21 12C21 16.9706 16.9706 21 12 21M21 12C21 7.02944 16.9706 3 12 3M21 12C21 13.6569 16.9706 15 12 15C7.02944 15 3 13.6569 3 12M21 12C21 10.3431 16.9706 9 12 9C7.02944 9 3 10.3431 3 12M12 21C7.02944 21 3 16.9706 3 12M12 21C10.3431 21 9 16.9706 9 12C9 7.02944 10.3431 3 12 3M12 21C13.6569 21 15 16.9706 15 12C15 7.02944 13.6569 3 12 3M3 12C3 7.02944 7.02944 3 12 3"
+                        stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+
+
+        </div>
+    </nav>
+
+    <!--Sale image-->
+    <section class="sale-image">
+        <picture>
+            <source src="./images/sale-image-1_clone.jpg" media=(max-width:768px)>
+            <img src=./images/sale_img_1.jpg alt=images>
+            <div class="sale-image__offer">
+                <h1 class="sale-image__offer__title sale-image__offer--bottom-margin">Skills that driven you forward
+                </h1>
+                <p class="sale-image__offer__content sale-image__offer--bottom-margin">Technology and the world of work
+                    change fast — with us, you’re faster. Get the skills to achieve goals and stay competitive.</p>
+                <button type="#" class="sale-image__offer--background-black">View plans</button>
+
+            </div>
+        </picture>
+    </section>
+
+    <section class="recommended">
+        <h1 class="recommended__title">Recommended for you</h1>
+        <p>Pick the best fit</p>
+
+    </section>
+
+    <div class="recommended__container">
+        <div class="recommended__container-course_card">
+            <img src="./images/recomeded_image.webp" alt="Python data visulisation masterclass">
+            <div class="recommended__container__content">
+                <h3>2024 Python Data Visulisation Masterclass</h3>
+                <p class="recommended__container-course_card__aurthor">Col steel</p>
+                <p>4.9⭐⭐⭐⭐⭐</p>
+                <p><b>₹649</b> <del>₹1,999</del></p>
+            </div>
+        </div>
+
+        <div class="recommended__container-course_card">
+            <img src="./images/remommended_image_1.webp" alt="Python data visulisation masterclass">
+            <div class="recommended__container__content">
+                <h3>Block chain Masterclass</h3>
+                <p class="recommended__container-course_card__aurthor">Sam</p>
+                <p>3.3⭐⭐⭐</p>
+                <p><b>₹449</b> <del>₹2,999</del></p>
+            </div>
+        </div>
+
+        <div class="recommended__container-course_card">
+            <img src="./images/recommended-image_2.avif" alt="Python data visulisation masterclass">
+            <div class="recommended__container__content">
+                <h3>Web development</h3>
+                <p class="recommended__container-course_card__aurthor">steel</p>
+                <p>3.2 ⭐⭐⭐</p>
+                <p><b>₹249</b> <del>₹5,999</del></p>
+            </div>
+        </div>
+
+        <div class="recommended__container-course_card">
+            <img src="./images/recommended-image_3.avif" alt="Python data visulisation masterclass">
+            <div class="recommended__container__content">
+                <h3>Dot net tutorials for beginners</h3>
+                <p class="recommended__container-course_card__aurthor">Wilson</p>
+                <p>4.3 ⭐⭐⭐⭐</p>
+                <p><b>₹349</b> <del>₹1,599</del></p>
+            </div>
+        </div>
+    </div>
+
+    <!--topics-->
+    <section class="topics">
+        <h1 class="topics__title">Topics recommended for me</h1>
+        <div class="topics__container">
+            <p>Website</p>
+            <p>Javascript</p>
+            <p>CSS</p>
+            <p>MongoDb</p>
+            <p>Github</p>
+            <p>ReactJs</p>
+            <p>Azure</p>
+            <p>Docker</p>
+            <p>ExpresJs</p>
+        </div>
+
+    </section>
+
+
+    <!--Popular Section-->
+    <section class="popular">
+        <div class="popular__title__container">
+            <h1 class="popular__title popular--size">Most popular</h1>
+            <p class=" popular__subtitle popular--size">Pick the best</p>
+        </div>
+        <div class="popular__container">
+            <div class="recommended__container-course_card">
+                <img src="./images/recomeded_image.webp" alt="Python data visulisation masterclass">
+                <div class="recommended__container__content">
+                    <h3>2024 Python Data Visulisation Masterclass</h3>
+                    <p class="recommended__container-course_card__aurthor">Col steel</p>
+                    <p>4.9⭐⭐⭐⭐⭐</p>
+                    <p><b>₹649</b> <del>₹1,999</del></p>
+                </div>
+            </div>
+
+            <div class="recommended__container-course_card">
+                <img src="./images/remommended_image_1.webp" alt="Python data visulisation masterclass">
+                <div class="recommended__container__content">
+                    <h3>Block chain Masterclass</h3>
+                    <p class="recommended__container-course_card__aurthor">Sam</p>
+                    <p>3.3⭐⭐⭐</p>
+                    <p><b>₹449</b> <del>₹2,999</del></p>
+                </div>
+            </div>
+
+            <div class="recommended__container-course_card">
+                <img src="./images/recommended-image_2.avif" alt="Python data visulisation masterclass">
+                <div class="recommended__container__content">
+                    <h3>Web development</h3>
+                    <p class="recommended__container-course_card__aurthor">steel</p>
+                    <p>3.2 ⭐⭐⭐</p>
+                    <p><b>₹249</b> <del>₹5,999</del></p>
+                </div>
+            </div>
+
+            <div class="recommended__container-course_card">
+                <img src="./images/recomeded_image.webp" alt="Python data visulisation masterclass">
+                <div class="recommended__container__content">
+                    <h3>2024 Python Data Visulisation Masterclass</h3>
+                    <p class="recommended__container-course_card__aurthor">Col steel</p>
+                    <p>4.9⭐⭐⭐⭐⭐</p>
+                    <p><b>₹649</b> <del>₹1,999</del></p>
+                </div>
+            </div>
+
+            <div class="recommended__container-course_card">
+                <img src="./images/remommended_image_1.webp" alt="Python data visulisation masterclass">
+                <div class="recommended__container__content">
+                    <h3>Block chain Masterclass</h3>
+                    <p class="recommended__container-course_card__aurthor">Sam</p>
+                    <p>3.3⭐⭐⭐</p>
+                    <p><b>₹449</b> <del>₹2,999</del></p>
+                </div>
+            </div>
+
+            <div class="recommended__container-course_card">
+                <img src="./images/recommended-image_2.avif" alt="Python data visulisation masterclass">
+                <div class="recommended__container__content">
+                    <h3>Web development</h3>
+                    <p class="recommended__container-course_card__aurthor">steel</p>
+                    <p>3.2 ⭐⭐⭐</p>
+                    <p><b>₹249</b> <del>₹5,999</del></p>
+                </div>
+            </div>
+
+            <div class="recommended__container-course_card">
+                <img src="./images/recommended-image_3.avif" alt="Python data visulisation masterclass">
+                <div class="recommended__container__content">
+                    <h3>Dot net tutorials for beginners</h3>
+                    <p class="recommended__container-course_card__aurthor">Wilson</p>
+                    <p>4.3 ⭐⭐⭐⭐</p>
+                    <p><b>₹349</b> <del>₹1,599</del></p>
+                </div>
+            </div>
+
+            <div class="recommended__container-course_card">
+                <img src="./images/recommended-image_3.avif" alt="Python data visulisation masterclass">
+                <div class="recommended__container__content">
+                    <h3>Dot net tutorials for beginners</h3>
+                    <p class="recommended__container-course_card__aurthor">Wilson</p>
+                    <p>4.3 ⭐⭐⭐⭐</p>
+                    <p><b>₹349</b> <del>₹1,599</del></p>
+                </div>
+            </div>
+    </section>
+
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer__one">
+            <ul class="footer__one-1 footer--line-height">
+                <li>Udemy Business</li>
+                <li>Tech On Udemy</li>
+                <li>Get the app</li>
+                <li>About Us</li>
+                <li>Contact Us</li>
+            </ul>
+            <ul class="footer__two-2 footer--line-height">
+                <li>Careers</li>
+                <li>Blog</li>
+                <li>Help and Support</li>
+                <li>Afflicate</li>
+                <li>Investors</li>
+            </ul>
+
+            <ul class="footer__two-3 footer--line-height">
+                <li>Blog</li>
+                <li>Investors</li>
+                <li>Career</li>
+
+            </ul>
+
+            <ul class="footer__one-4 footer--line-height">
+                <li>Legal & Accessibility</li>
+                <li>Accessibility statement</li>
+                <li>Privacy policy</li>
+                <li>Sitemap</li>
+                <li>Terms</li>
+            </ul>
+
+        </div>
+
+
+        <div class="footer__two">
+            <div class="footer__two--one">
+                <img src="./assets/udemy_logo-white.png" alt="udemy_logo" class="navbar__logo">
+                <p class="footer__two-one__copy footer--align-item a">&copyUdemy, inc</p>
+            </div>
+            <p class="footer__two-one__cookies footer__two--align-item">Cookie settings</p>
+            <div class="footer__two--english">
+                <?xml version="1.0" encoding="iso-8859-1"?>
+                <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg width="300px" height="300px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M21 12C21 16.9706 16.9706 21 12 21M21 12C21 7.02944 16.9706 3 12 3M21 12C21 13.6569 16.9706 15 12 15C7.02944 15 3 13.6569 3 12M21 12C21 10.3431 16.9706 9 12 9C7.02944 9 3 10.3431 3 12M12 21C7.02944 21 3 16.9706 3 12M12 21C10.3431 21 9 16.9706 9 12C9 7.02944 10.3431 3 12 3M12 21C13.6569 21 15 16.9706 15 12C15 7.02944 13.6569 3 12 3M3 12C3 7.02944 7.02944 3 12 3"
+                        stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+                <p class="footer__two-one__english footer__two--align-item">English</p>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
