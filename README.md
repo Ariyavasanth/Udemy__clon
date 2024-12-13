@@ -33,7 +33,7 @@ _Add screenshots of your project here to showcase the design._
 
 Feel free to reach out or follow me for more projects:
 
-- **GitHub**: [https://github.com/your-github-username](https://github.com/your-github-username)
+- **GitHub**: [https://github.com/Ariyavasanth](https://github.com/Ariyavasanth)
 
 
 ---
