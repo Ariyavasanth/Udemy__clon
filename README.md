@@ -25,10 +25,6 @@ This repository showcases a project I built while learning web development conce
   - Flexbox
   - Media Queries
 
-## Screenshots
-
-_Add screenshots of your project here to showcase the design._
-
 ## Contact
 
 Feel free to reach out or follow me for more projects:
